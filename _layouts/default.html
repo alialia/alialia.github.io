@@ -3,8 +3,8 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
-   <meta name="author" content="Tom Preston-Werner" />
-   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />
+   <meta name="author" content="Shen Tao" />
+   <!-- <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" /> -->
    <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
 
    <!-- syntax highlighting CSS -->
@@ -27,8 +27,8 @@ var WRInitTime=(new Date()).getTime();
 
 <div class="site">
   <div class="title">
-    <a href="/">Tom Preston-Werner</a>
-    <a class="extra" href="/">home</a>
+    <a href="/">Shen Tao</a>
+    <a class="extra" href="/">Home page</a>
   </div>
 
   {{ content }}
@@ -36,16 +36,17 @@ var WRInitTime=(new Date()).getTime();
   <div class="footer">
     <div class="contact">
       <p>
-        Tom Preston-Werner
+        Shen Tao
         <br />
-        Cofounder of
+        val_zju@hotmail.com
+<!--         Cofounder of
           <a href="https://codestarter.org/">Codestarter</a>,
-          <a href="https://github.com/">GitHub</a>
+          <a href="https://github.com/">GitHub</a> -->
         <br />
-        tom@mojombo.com
+        
       </p>
-    </div>
-    <div class="contact">
+    <!-- </div> -->
+<!--     <div class="contact">
       <p>
         <a href="http://github.com/mojombo/">github.com/mojombo</a><br />
         <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
@@ -55,8 +56,8 @@ var WRInitTime=(new Date()).getTime();
       <a href="http://feeds.feedburner.com/tom-preston-werner">
         <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
       </a>
-    </div>
-  </div>
+    </div> -->
+  <!-- </div> -->
 </div>
 
 <a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
@@ -82,6 +83,22 @@ var pageTracker = _gat._getTracker("UA-6016902-1");
 pageTracker._trackPageview();
 </script>
 <!-- Google Analytics end -->
+<!-- Mathjax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+});
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<!-- Mathjax end -->
 
 </body>
 </html>
