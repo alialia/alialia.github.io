@@ -1,12 +1,11 @@
-<<<<<<< HEAD
 #baseurl: http://renco.github.io
 #markdown: kramdown
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
 
 
 
-title:            陈皇宇的个人网站
-description:      爱折腾，爱思考，寻找爱创造的人
+title:            Shen Tao
+description:      Ambition is a state of permanent dissatisfaction with the present.
 logo:             423.jpg
 ##DISQUS##disqus_shortname: renco
 search:           true
@@ -17,9 +16,9 @@ url:              http://renco.github.io
 
 # Owner/author information
 owner:
-  name:           陈皇宇
-  avatar:         chy.jpg
-  email:          rencochy@live.cn
+  name:           Shen Tao
+  # avatar:         chy.jpg
+  email:          val_zju@hotmail.com
   # Social networking links used in footer. Update and remove as you like.
   ##twitter:
   ##facebook:
@@ -56,16 +55,13 @@ links:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 ##timezone:    America/New_York
-pygments:    true
+highlighter:    'pygments'
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 #permalink:   /:categories/:title/
 permalink: pretty
 
-##多说
-#duoshuo_comments: true
-#duoshuo_short_name: renco
-=======
-theme: jekyll-theme-slate
->>>>>>> origin/master
+#多说
+# duoshuo_comments: true
+# duoshuo_short_name: renco
