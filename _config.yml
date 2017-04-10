@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #baseurl: http://renco.github.io
 #markdown: kramdown
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
@@ -65,3 +66,6 @@ permalink: pretty
 ##多说
 #duoshuo_comments: true
 #duoshuo_short_name: renco
+=======
+theme: jekyll-theme-slate
+>>>>>>> origin/master
