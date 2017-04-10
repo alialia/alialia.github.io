@@ -1,28 +1,12 @@
 ---
 layout: default
-title: Shen Tao
+title: 最新的文章
+description: "A simple and clean responsive Jekyll theme for words and photos."
+tags: [Jekyll, theme, themes, responsive, blog, minimalism]
 ---
 
-<div id="Home page">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <h1>Reading/Media Recommendation</h1>
-  <ul class="posts">
-    <li><span>07 Apr 2017</span> &raquo; <a href="http://www.emanuelderman.com/writing/entry/its-all-greeks-to-me">Article: Emanuek Derman: It’s All Greeks to Me/a></li>
-  </ul>
-
-  <h1>Other</h1>
-  <ul class="posts">
-    <li><span>12 Sep 2013</span> &raquo; <a href="http://www.youtube.com/watch?v=k2vJNNAQZlg">Video: Fox Business News interview</a></li>
-  </ul>
-
-  <h1>Noteworthy Open Source Projects and Specifications</h1>
-  <ul class="posts">
-    <li><a href="http://github.com/jekyll/jekyll/">Jekyll:</a> A simple, blog aware, static site generator (used for this site).</li>
-  </ul>
-</div>
+<ul class="post-list">
+{% for post in site.posts limit:10 %} 
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
+</ul>

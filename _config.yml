@@ -1,0 +1,67 @@
+#baseurl: http://renco.github.io
+#markdown: kramdown
+exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
+
+
+
+title:            陈皇宇的个人网站
+description:      爱折腾，爱思考，寻找爱创造的人
+logo:             423.jpg
+##DISQUS##disqus_shortname: renco
+search:           true
+# Your site's domain goes here. When working locally use localhost server leave blank
+# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
+# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
+url:              http://renco.github.io
+
+# Owner/author information
+owner:
+  name:           陈皇宇
+  avatar:         chy.jpg
+  email:          rencochy@live.cn
+  # Social networking links used in footer. Update and remove as you like.
+  ##twitter:
+  ##facebook:
+  github:       Renco
+  linkedin:     rencochy
+  douban:       http://www.douban.com/people/renco/
+  weibo:        http://www.weibo.com/rencoxf4ever
+  zhihu:        http://www.zhihu.com/people/chen-huang-yu
+  ##instagram:
+  ##tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  ##google_plus:    "http://plus.google.com/123123123123132123"
+
+# Analytics and webmaster tools stuff goes here
+##google_analytics:
+##google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+##bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: 我是谁
+    url: /about
+  - title: 关于本站
+    url: /aboutsite
+  - title: 文章列表
+    url: /articles
+  - title: 标签
+    url: /tags  
+  #- #title: 我的豆瓣
+    #url: http://www.douban.com/people/renco/
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+##timezone:    America/New_York
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+#permalink:   /:categories/:title/
+permalink: pretty
+
+##多说
+#duoshuo_comments: true
+#duoshuo_short_name: renco
