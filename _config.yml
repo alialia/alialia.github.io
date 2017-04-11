@@ -12,7 +12,7 @@ search:           true
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
-url:              http://renco.github.io
+url:              http://alialia.github.io
 
 # Owner/author information
 owner:
@@ -22,7 +22,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   ##twitter:
   ##facebook:
-  github:       Renco
+  github:       alialia
   linkedin:     rencochy
   douban:       http://www.douban.com/people/renco/
   weibo:        http://www.weibo.com/rencoxf4ever
@@ -55,7 +55,7 @@ links:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 ##timezone:    America/New_York
-highlighter:    'pygments'
+highlighter:    'rouge'
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
