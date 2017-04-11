@@ -1,4 +1,4 @@
-#baseurl: http://renco.github.io
+#baseurl: https://alialia.github.io
 #markdown: kramdown
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
 
@@ -12,7 +12,7 @@ search:           true
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
-url:              http://alialia.github.io
+url:              https://alialia.github.io
 
 # Owner/author information
 owner:
