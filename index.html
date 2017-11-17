@@ -1,12 +1,18 @@
 ---
 layout: default
-title: 文章
+title: Some thinkings
 description: "A simple and clean responsive Jekyll theme for words and photos."
 tags: [Jekyll, theme, themes, responsive, blog, minimalism]
 ---
-
-<ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="post-list">
+	{% for post in site.posts limit:10 %} 
+	  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+	{% endfor %}
+  </ul>
+  <h1>Highlighted Media</h1>
+  <ul class="posts">
+    <li><span>25 Apr 2017</span> &raquo; <a href="http://www.emanuelderman.com/writing/entry/its-all-greeks-to-me">Article: Emanuel Derman - It’s All Greeks to Me</a></li>
+  </ul>
+</div>
