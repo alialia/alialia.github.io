@@ -65,3 +65,4 @@ permalink: pretty
 #多说
 # duoshuo_comments: true
 # duoshuo_short_name: renco
+theme: jekyll-theme-leap-day
