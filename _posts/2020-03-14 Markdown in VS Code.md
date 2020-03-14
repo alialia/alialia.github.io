@@ -1,3 +1,7 @@
+---
+layout: post
+title: Markdown in VS Code
+---
 - [1. Visual Studio Code Introduction](#1-visual-studio-code-introduction)
 - [2. 插件/Extension](#2-%e6%8f%92%e4%bb%b6extension)
   - [自动生成并更新目录](#%e8%87%aa%e5%8a%a8%e7%94%9f%e6%88%90%e5%b9%b6%e6%9b%b4%e6%96%b0%e7%9b%ae%e5%bd%95)
