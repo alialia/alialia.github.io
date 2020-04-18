@@ -134,5 +134,7 @@ for i in range(10):
 @import "2017-04-10-testing-post.txt"
 
 
-
-<!-- @import "2017-4-11-NDF.md"  -->
+![Matplotlib Anatomy of a figure图解](https://matplotlib.org/_images/anatomy.png)
+<!-- 
+@import "2017-4-11-NDF.md"  
+->
